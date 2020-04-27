@@ -36,21 +36,33 @@ width:250px;
 height: 40px;
 box-shadow: 0px 0px 3px 3px rgb(22, 11, 68);
 border-radius: 10px;
-margin: 20px;
+margin: 10px;
 font-size: larger;
+overflow: hidden;
+float: unset;
+line-height:40px;
 
 
 }
 
 button{
   width:80px;
-  height: 48px;
+  height: 50px;
   box-shadow: 0px 0px 3px 3px rgb(22, 11, 68);
   border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   background-color: rgb(22, 11, 68);
   color:white;
+  overflow: hidden;
+  float: unset;
+  line-height:40px;
+}
+
+li {
+  margin-bottom: 5px;
+  
+  
 }
 
 li:hover{
@@ -66,4 +78,11 @@ h1{
   font-size: 60px; 
   color:black;
   margin-bottom: 20px;
+}
+
+i{
+  color: darkblue;
+  margin-right: 50px;
+  display: inline-block;
+  
 }
